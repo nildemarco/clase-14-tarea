@@ -10,6 +10,11 @@ body {
     text-align: center;
    }
 
+header span {
+    background-color:#000;
+    color:#fff;
+}
+
 main{
     display: flex;
 }
@@ -41,4 +46,18 @@ aside{
 
 footer {
     background-color: #616161;
+    height: 70px;
+}
+
+footer button {
+    Background-color: #000;
+    Color: #fff;
+    padding: 12px;
+    border: none;
+    margin-top: 15px;
+    
+}
+
+footer button:hover {
+    background-color: grey; 
 }
