@@ -46,7 +46,9 @@ aside{
 
 footer {
     background-color: #616161;
-    height: 70px;
+    height: 100px;
+    padding-left: 15px;
+
 }
 
 footer button {
@@ -55,9 +57,23 @@ footer button {
     padding: 12px;
     border: none;
     margin-top: 15px;
-    
+      
 }
 
 footer button:hover {
     background-color: grey; 
+}
+
+@media (max-width: 600px) {
+    main {
+        display: block;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
 }
