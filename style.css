@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -7,9 +8,9 @@ body {
 
  header{
     text-align: center;
- }
+   }
 
-.contenedor {
+main{
     display: flex;
 }
 section{
@@ -36,4 +37,8 @@ aside{
 
 .card-text{
     padding: 16px;
+}
+
+footer {
+    background-color: #616161;
 }
